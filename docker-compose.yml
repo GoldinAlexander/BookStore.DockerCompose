@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  bookstore.server.api:
+    image: ${DOCKER_REGISTRY-}bookstoreserverapi
+    build:
+      context: .
+      dockerfile: BookStore.Server.API/Dockerfile
+
+  bookstore.client:
+    image: bookstore_client_img2 
+    build:
+      context: ./OnlineBookStore.Client
+      dockerfile: Dockerfile 
+
+  proxy:
+    image: nginx:mainline
+      
+    
