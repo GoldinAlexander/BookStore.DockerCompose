@@ -8,10 +8,7 @@ services:
       dockerfile: BookStore.Server.API/Dockerfile
 
   bookstore.client:
-    image: bookstore_client_img2 
-    build:
-      context: ./OnlineBookStore.Client
-      dockerfile: Dockerfile 
+    image: dockerhubdockerid2022/boookstore_client 
 
   proxy:
     image: nginx:mainline
