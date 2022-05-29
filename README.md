@@ -3,7 +3,7 @@
 ### Developed in Visual Studio 2019/Docker Desktop 4.8.1
 ___
 ### Stack:
-*.Net Core Web API
+* .Net Core Web API
 * Entity Framework Core
 * React.js
 * Redux
