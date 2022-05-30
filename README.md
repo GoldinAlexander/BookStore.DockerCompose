@@ -9,4 +9,5 @@ ___
 * Redux
 * Docker
 * Docker Compose
+* Nginx
 * PowerShell
