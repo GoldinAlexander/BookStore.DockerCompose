@@ -1,5 +1,5 @@
 # BookStore.DockerCompose
-### Full stack PC pet-project of the online sopping "BookStore" includes: using Docker and Docker Compose with Linux containers
+### Full stack PC pet-project of the online sopping "BookStore" includes: Asp.Net Core, React.js, Nginx, using Docker and Docker Compose with Linux containers
 ### Developed in Visual Studio 2019/Docker Desktop 4.8.1
 ___
 ### Stack:
